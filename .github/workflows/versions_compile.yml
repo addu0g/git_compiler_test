@@ -3,7 +3,7 @@ name: Build Artifacts
 env:
   x86arch: "x86/artifact"
   x64arch: "x64/artifact"
-  projectName: "../CommandTaskAnalizer.sln"
+  projectName: "CommandTaskAnalizer.sln"
 on:
   push:
     branches:
