@@ -1,8 +1,8 @@
 name: Build Artifacts
 
 env:
-  x86arch: "x86/artifact"
-  x64arch: "x64/artifact"
+  x86arch: "x86"
+  x64arch: "x64"
   projectName: "CommandTaskAnalizer.sln"
 
 on:
