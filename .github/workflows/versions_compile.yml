@@ -26,6 +26,7 @@ jobs:
 
     - name: Build for x86 (32-bit)
       run: |
+        echo "compilando ando"
         msbuild ${{ env.projectName }} /p:Configuration=Release /p:Platform=x86 /p:TargetFrameworkVersion=v4.6 
         
     - name: Archive x86 artifacts
@@ -36,6 +37,7 @@ jobs:
 
     - name: Build for x64 (64-bit)
       run: |
+        echo "compilando ando"
         msbuild ${{ env.projectName }} /p:Configuration=Release /p:Platform=x64 /p:TargetFrameworkVersion=v4.6 
 
     - name: Archive x64 artifacts

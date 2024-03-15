@@ -1,0 +1,7 @@
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\bin\Release\CommandTaskAnalizer.exe.config
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\bin\Release\CommandTaskAnalizer.exe
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\bin\Release\CommandTaskAnalizer.pdb
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\obj\Release\CommandTaskAnalizer.csproj.AssemblyReference.cache
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\obj\Release\CommandTaskAnalizer.csproj.CoreCompileInputs.cache
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\obj\Release\CommandTaskAnalizer.exe
+C:\Users\addu0g\source\repos\CommandTaskAnalizer\CommandTaskAnalizer\obj\Release\CommandTaskAnalizer.pdb

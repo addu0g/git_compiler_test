@@ -6,6 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CommandTaskAnalizer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|c:\\users\\addu0g\\source\\repos\\commandtaskanalizer\\commandtaskanalizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|solutionrelative:commandtaskanalizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|c:\\users\\addu0g\\source\\repos\\commandtaskanalizer\\commandtaskanalizer\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
@@ -27,7 +31,20 @@
               "ToolTip": "C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\CommandTaskAnalizer\\CommandTaskAnalizer.csproj",
               "RelativeToolTip": "CommandTaskAnalizer\\CommandTaskAnalizer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-15T22:27:02.701Z",
+              "WhenOpened": "2024-03-15T23:48:14.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\CommandTaskAnalizer\\Program.cs",
+              "RelativeDocumentMoniker": "CommandTaskAnalizer\\Program.cs",
+              "ToolTip": "C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\CommandTaskAnalizer\\Program.cs",
+              "RelativeToolTip": "CommandTaskAnalizer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T23:24:51.282Z",
               "EditorCaption": ""
             }
           ]
