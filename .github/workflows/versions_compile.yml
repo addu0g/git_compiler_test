@@ -25,7 +25,7 @@ jobs:
 
     - name: Build for x86 (32-bit)
       run: |
-        msbuild ${{ env.projectName }} /p:Configuration=Release /p:Platform=x86 /p:TargetFrameworkVersion=v4.6 
+        msbuild ${{ env.projectName }} /p:Configuration=Release /p:Platform="Any CPU" /p:TargetFrameworkVersion=v4.6 
         
     - name: Archive x86 artifacts
       uses: actions/upload-artifact@v2
