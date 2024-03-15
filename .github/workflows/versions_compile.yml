@@ -1,8 +1,8 @@
 name: Build Artifacts
 
 env:
-  x86arch: $"CommandTaskAnalizer.exe"
-  x64arch: $"CommandTaskAnalizer.exe"
+  x86arch: $"D:\a\git_compiler_test\git_compiler_test\CommandTaskAnalizer\bin\x86\Release\CommandTaskAnalizer.exeCommandTaskAnalizer.exe"
+  x64arch: $"D:\a\git_compiler_test\git_compiler_test\CommandTaskAnalizer\bin\x64\Release\CommandTaskAnalizer.exeCommandTaskAnalizer.exe"
   projectName: "CommandTaskAnalizer.sln"
 
 on:
