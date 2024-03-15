@@ -1,0 +1,46 @@
+name: Build Artifacts
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+  env:
+    x86arch: "x86/artifact"
+    x64arch: "x64/artifact"
+
+jobs:
+  build:
+    runs-on: windows-2019
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup MSBuild path
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Build for x86 (32-bit)
+      run: |
+        msbuild /p:Configuration=Release /p:Platform=x86 /p:TargetFrameworkVersion=v4.5
+        # Adjust path and project file name if needed
+
+    - name: Archive x86 artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: x86-artifact
+        path: {{ env.x86arch }}
+
+    - name: Build for x64 (64-bit)
+      run: |
+        msbuild /p:Configuration=Release /p:Platform=x64 /p:TargetFrameworkVersion=v4.5
+        # Adjust path and project file name if needed
+
+    - name: Archive x64 artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: x64-artifact
+        path: {{ env.x64arch }}

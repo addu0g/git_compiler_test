@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|c:\\users\\addu0g\\source\\repos\\commandtaskanalizer\\commandtaskanalizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\commandtaskanalizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFC67DCA-5FB3-4076-B13E-BC9C182008A2}|CommandTaskAnalizer\\CommandTaskAnalizer.csproj|solutionrelative:commandtaskanalizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "CommandTaskAnalizer\\Program.cs",
               "ToolTip": "C:\\Users\\addu0g\\source\\repos\\CommandTaskAnalizer\\CommandTaskAnalizer\\Program.cs",
               "RelativeToolTip": "CommandTaskAnalizer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T21:31:46.042Z",
               "EditorCaption": ""
