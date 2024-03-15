@@ -3,7 +3,7 @@ name: Build Artifacts
 env:
   x86arch: "x86/artifact"
   x64arch: "x64/artifact"
-  
+  projectName: "../CommandTaskAnalizer.sln"
 on:
   push:
     branches:
@@ -11,8 +11,6 @@ on:
   pull_request:
     branches:
       - main
-
-
 
 jobs:
   build:
@@ -27,22 +25,20 @@ jobs:
 
     - name: Build for x86 (32-bit)
       run: |
-        msbuild /p:Configuration=Release /p:Platform=x86 /p:TargetFrameworkVersion=v4.5
-        # Adjust path and project file name if needed
-
+        msbuild /p:Configuration=Release /p:Platform=x86 /p:TargetFrameworkVersion=v4.6 ${{ env.projectName }}
+        
     - name: Archive x86 artifacts
       uses: actions/upload-artifact@v2
       with:
         name: x86-artifact
-        path: {{ env.x86arch }}
+        path: ${{ env.x86arch }}
 
     - name: Build for x64 (64-bit)
       run: |
-        msbuild /p:Configuration=Release /p:Platform=x64 /p:TargetFrameworkVersion=v4.5
-        # Adjust path and project file name if needed
+        msbuild /p:Configuration=Release /p:Platform=x64 /p:TargetFrameworkVersion=v4.6 ${{ env.projectName }}
 
     - name: Archive x64 artifacts
       uses: actions/upload-artifact@v2
       with:
         name: x64-artifact
-        path: {{ env.x64arch }}
+        path: ${{ env.x64arch }}
